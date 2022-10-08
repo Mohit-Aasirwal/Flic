@@ -8,12 +8,15 @@ import "./index.css";
 
 const App = () => {
   return (
-    <div>
+    <div className="bg-[#202020]">
       <Navbar />
       <div className="pt-10">
         <HomeHero />
+        <hr />
         <Timeline />
+        <hr />
         <Teams />
+        <hr />
         <Contact />
       </div>
     </div>

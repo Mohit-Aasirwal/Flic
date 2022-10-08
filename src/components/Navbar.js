@@ -19,7 +19,7 @@ const Navbar = () => {
               <stop offset={1} style={{stopColor: '#39B54A'}} />
             </linearGradient>
             <mask id="svg-mask" maskUnits="userSpaceOnUse" x={0} y={0} width={1080} height={1080}>
-              <path id="pathsvg" d="M169,786.34Q363.359996,175.978707,899.999998,336.45q-179.120002,587.259106-529.72,350.82q69.719998-251.25,299.72-209.26" fill="none" strokeWidth={35} strokeLinecap="round" strokeLinejoin="miter" />
+              <path id="pathsvg" d="M169,786.34Q363.359996,175.978707,899.999998,336.45q-179.120002,587.259106-529.72,350.82q69.719998-251.25,299.72-209.26" fill="none" strokeWidth={50} strokeLinecap="round" strokeLinejoin="miter" />
             </mask>
           </defs>
 

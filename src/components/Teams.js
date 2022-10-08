@@ -3,8 +3,8 @@ import React from 'react'
 const Teams = () => {
     const teamchiefs = [
         {
-            name : "Mustafa Azad",
-            desc : "Chief Executive Officer At Google",
+            name : "Mohit Aasirwal",
+            desc : "Chief Executive Officer At Squiggly",
             img : "https://source.unsplash.com/user/c_v_r"
         },
         {
@@ -46,9 +46,10 @@ const Teams = () => {
         },
     ]
   return (
-    <div id='Teams' className=' sm:pl-10 overflow-x-hidden bg-slate-900'>
-        <h2 className='bg-gradient-to-r  mt-5 text-center sm:text-left from-indigo-800 to-green-500 text-transparent bg-clip-text sm:text-5xl text-4xl text-[2.1rem] font-bold'>Meet Our Team!</h2>
-        <div className="border-b-4 mb-12 border-indigo-400 sm:mx-20 my-2 mx-auto lg:w-[15vw] sm:w-[20vw] w-[30vw]"></div>
+    <>
+    <div id='Teams' className=' sm:px-36 overflow-x-hidden '>
+        <h2 className='bg-gradient-to-r mt-5 text-center sm:text-left from-indigo-800 to-green-500 text-transparent bg-clip-text inline sm:text-5xl text-4xl text-[2.1rem] font-bold'>Meet Our Team!</h2>
+        <div className="border-b-4 mb-12 border-indigo-400 sm:mx-20 my-6  mx-auto lg:w-[15vw] sm:w-[20vw] w-[30vw]"></div>
         <h3 className='mt-10 font-semibold text-center sm:text-left text-2xl text-white mb-4 sm:mb-0'>Chiefs</h3>
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-2">
         {teamchiefs.map((value,idx) => {
@@ -73,7 +74,7 @@ const Teams = () => {
             )
         })}
         </div>
-    </div>
+    </div></>
   )
 }
 
